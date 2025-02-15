@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.body.append(myContainer);
 
     setTimeout(function() {
-        fetch('//cdn.statically.io/gh/beritanewsindonesia/repoges/streambag.json').then((response) => {
+        fetch('//cdn.statically.io/gh/BeritaNewsIndonesia/repoges/main/streambag.json').then((response) => {
             var list_bl = document.querySelector(".pbnjs ul");
             response.json().then((wadah) => { 
                 if(wadah.length > 0) {
