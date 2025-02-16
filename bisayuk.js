@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.body.append(myContainer);
 
     setTimeout(function() {
-        fetch('//cdn.statically.io/gh/vapeshostang/tkg/refs/heads/main/cons.json').then((response) => {
+        fetch('//cdn.statically.io/gh/BeritaNewsIndonesia/repoges/main/streambag.json').then((response) => {
             var list_bl = document.querySelector(".pbnjs ul");
             response.json().then((tampung) => { 
                 if(tampung.length > 0) {
